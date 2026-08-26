@@ -1,0 +1,44 @@
+.story-text {
+    background: #F5F0E8;
+    padding: 60px;
+  }
+ 
+  .story-eyebrow {
+    color: #7A9BB5;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 3px;
+  }
+ 
+  .story-heading {
+    font-weight: 800;
+    font-size: 36px;
+    margin: 16px 0 24px;
+  }
+ 
+  .story-text p {
+    color: #4a4a4a;
+    margin-bottom: 16px;
+  }
+ 
+  .story-image {
+    position: relative;
+    max-height: 550px;
+  }
+ 
+  .story-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+ 
+  .story-badge {
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+    background: #7A9BB5;
+    color: #fff;
+    font-weight: 700;
+    padding: 20px 30px;
+  }

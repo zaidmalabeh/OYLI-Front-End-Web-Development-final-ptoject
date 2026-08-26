@@ -1,11 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="../css/globals.css" rel="stylesheet">
+    <link href="../css/about.css" rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <nav class="navbar sticky-top" style="background-color: white;">
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="home.html" class="navbar-link">
+                <span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">ECHO</span><span
+                    class="light">Wear</span>
+            </a>
+            <div class="d-flex justify-content-around" style="width: 30%;">
+                <a href="home.html" class="navbar-link">Home</a>
+                <a href="products.html" class="navbar-link">Shop</a>
+                <a href="About.html" class="navbar-link">About</a>
+            </div>
+            <div>
+                <a href="cart.html" class="navbar-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1m3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1z" />
+                    </svg>
+                </a>
+                <a href="sign_in.html" class="navbar-link"
+                    style="margin-left: 2px; padding: 3px; background-color: white;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                        <path fill-rule="evenodd"
+                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                    </svg>
+                </a>
+            </div>
+
+        </div>
+    </nav>
+    <main>
+        <section>
+            <div class="row g-0">
+
+                <div class="col-12 col-md-6 story-text">
+                    <p class="story-eyebrow">OUR STORY</p>
+                    <h1 class="story-heading">Born from the streets, made for everywhere</h1>
+                    <p>ECHO Wear started as an idea on the back of a receipt in 2021. Two friends tired of settling —
+                        for clothes that were either too boring or way too expensive.</p>
+                    <p>So they made their own. Streetwear-inspired basics with real quality. Pieces that fit actual
+                        people — not mannequins.</p>
+                    <p>Three years later, ECHO Wear is worn by thousands of people who know exactly who they are — and
+                        those still figuring it out.</p>
+                </div>
+
+                <div class="col-12 col-md-6 story-image">
+                    <img src="../img/Screenshot 2026-08-26 224411.png" alt="ECHO Wear model">
+                    <div class="story-badge">50K+</div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+
+                <div class="col-12 col-sm-5">
+                    <p class="footer-logo"><span class="bold">ECHO</span> <span class="light">WEAR</span></p>
+                    <p class="footer-tagline">Made for those who know who they are — and those still figuring it
+                        out. Your style, your echo.</p>
+                </div>
+
+                <div class="col-6 col-sm-3">
+                    <p class="footer-title">Navigate</p>
+                    <div class="footer-links">
+                        <a href="home.html">Home</a>
+                        <a href="products.html">Shop</a>
+                        <a href="About.html">About</a>
+                        <a href="cart.html">Cart</a>
+                    </div>
+                </div>
+
+                <div class="col-6 col-sm-4">
+                    <p class="footer-title">Help</p>
+                    <div class="footer-links">
+                        <a href="#">Sizing Guide</a>
+                        <a href="#">Returns & Exchanges</a>
+                        <a href="#">Shipping Info</a>
+                        <a href="#">FAQ</a>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom d-flex flex-column flex-sm-row justify-content-between gap-2">
+                <span>© 2024 ECHO Wear. All rights reserved.</span>
+                <span>Made for the ones who make their own rules.</span>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
