@@ -1,3 +1,28 @@
 body {
-    
+    background-color: bisque;
+}
+
+.text-accent {
+    color: #7A9BB5;
+}
+
+.hero-heading {
+    font-size: 72px;
+    line-height: 0.95;
+}
+
+.hero-image-col {
+    min-height: 320px;
+}
+
+.hero-image-col img {
+    min-height: 320px;
+    object-fit: cover;
+}
+
+.hero-img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
 }
